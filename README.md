@@ -10,7 +10,7 @@ ESP32:
 * Updates for Double Precision:
     * Change line in mpconfigport.h (Found in /ports/esp32/)
     * #define MICROPY_FLOAT_IMPL (MICROPY_FLOAT_IMPL_DOUBLE)
-* Fix IRAM0 Error:
+* Fix IRAM0 Error (Specific to SPIRAM):
     * Add / change line in sdkconfig (Found in /ports/esp32/build*)
     * CONFIG_FREERTOS_PLACE_FUNCTIONS_INTO_FLASH=y
 
